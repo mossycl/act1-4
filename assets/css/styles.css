@@ -12,7 +12,7 @@ body {
     color:#6f4b12 !important;
 }
 .section1 {
-    background-color: blueviolet;
+    /*background-color: blueviolet;*/
 }
 .overlink {
     position: absolute;
@@ -44,4 +44,8 @@ body {
     background-color:#432c08;
     color: white;
     margin: 0 auto;
+}
+.subsection {
+    background-color:#6f4b12;
+    color:#d9b275
 }
