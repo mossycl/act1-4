@@ -1,0 +1,47 @@
+body {
+    background-image: url(/assets/img/bg.png);
+}
+.nav-color {
+    background-color: #d9b275;
+}
+.nav-txt-color-a {
+    color:#432c08 !important;
+    font-weight: 600;
+}
+.nav-txt-color-b {
+    color:#6f4b12 !important;
+}
+.section1 {
+    background-color: blueviolet;
+}
+.overlink {
+    position: absolute;
+    width:100%;
+    height:200px;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.442);
+}
+.overlink:hover{
+    cursor: pointer;
+    opacity:1;
+    transition: .2s ease;
+}
+.section2 {
+    background-color: rgba(255, 255, 255, 0.463);
+}
+.section2-text {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section2 img {
+    width:100%;
+}
+.footer {
+    display:flex;
+    justify-content:space-around;
+    background-color:#432c08;
+    color: white;
+    margin: 0 auto;
+}
