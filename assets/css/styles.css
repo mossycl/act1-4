@@ -12,7 +12,7 @@ body {
     color:#6f4b12 !important;
 }
 .section1 {
-    /*background-color: blueviolet;*/
+    background-color: #6f4b122d;
 }
 .overlink {
     position: absolute;
@@ -78,8 +78,12 @@ body {
 .subsection h1 {
     padding-top:18px;
 }
-ficha {
+.ficha {
     display:flex;
     flex-direction: column;
     justify-content: center;
+}
+.contacto-img {
+    width:60% !important;
+    margin-bottom:1rem;
 }
